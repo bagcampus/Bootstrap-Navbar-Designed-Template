@@ -17,7 +17,7 @@
     display: inline-block;
     padding: 1.5em 3em;
     width: 19%;
-    float: left;
+    float: none;
 }
 
 .menu img {
