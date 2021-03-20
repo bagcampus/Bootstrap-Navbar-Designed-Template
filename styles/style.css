@@ -23,3 +23,30 @@
 .menu img {
     max-width: 100%;
 }
+
+
+.menu-mobile {
+    display: none;
+    padding: 20px;
+}
+
+.menu-mobile::after {
+    content: "\f0c9";
+    font-family: "fontawesome";
+    position: relative;
+    left: -2px;
+    top: 2px;
+}
+
+.menu-dropdown-icon::before {
+    content: "\f078";
+    font-family: "fontawesome";
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: 16px 15px 16px;
+    background: transparent;
+    color: #333;
+    border-left: solid #ddd 2px;
+    font-size: 11px;
+}
